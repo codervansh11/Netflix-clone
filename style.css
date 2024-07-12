@@ -121,7 +121,7 @@ nav button {
   font-size: 20px;
   font-weight: 600;
 }
-.main input {
+ input {
   appearance: none;
   text-shadow: none;
   padding: 17px 150px 17px 14px;
@@ -139,7 +139,7 @@ nav button {
 .first {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin: auto;
   max-width: 70vw;
   color: rgb(255, 255, 255);
@@ -148,14 +148,14 @@ nav button {
   position: relative;
 }
 .sec-img img {
-  width: 640px;
+  width: 555px;
   position: relative;
   z-index: 10;
 }
 .sec-img video {
   position: absolute;
-  top: 126px;
-  right: 76px;
+  top: 95px;
+  right: 0px;
   width: 480px;
 }
 .first>div{
@@ -164,9 +164,65 @@ nav button {
     padding: 34px 0px;
 }
 .first>div :nth-child(1){
-    font-size: 48px;
+    font-size: 47px;
     font-weight: bolder;
 }
 .first>div :nth-child(2){
-    font-size: 24px;
+    font-size: 22px;
+}
+#video3{
+  height: 190px;
+  width: 400px;
+  position: absolute;
+  top: 71px;
+  right: 85px;
+}
+    
+.faq h2 {
+  text-align: center;
+  font-size: 48px;
+}
+
+.faq {
+  background: black;
+  color: white;
+  padding: 34px;
+}
+.faqbox:hover {
+  background-color: #414141;
+  color: white;
+}
+
+.faqbox svg {
+  filter: invert(1);
+}
+
+.faqbox{
+  color:white;
+  transition: all 0.3s ease-out;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #2d2d2d;
+  padding: 24px;
+  max-width: 75vw;
+  margin: 10px auto;
+  cursor: pointer;
+}
+footer {
+  color: rgba(255, 255, 255, 0.476);
+  max-width: 60vw;
+  margin: auto;
+  padding: 60px;
+}
+
+footer .questions {
+  padding: 34px 0;
+}
+
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: rgba(255, 255, 255, 0.476);
 }
