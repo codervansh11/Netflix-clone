@@ -227,7 +227,7 @@ footer .questions {
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  color: rgba(255, 255, 255, 0.476);
+  color: rgba(255, 255, 255, 0.7);
 }
 @media screen and (max-width: 1300px) {
 
