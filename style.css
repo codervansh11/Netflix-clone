@@ -70,6 +70,8 @@ nav button {
   text-align: center;
 }
 .hero-buttons {
+  /* max-width: 80vw; */
+  /* padding: 0px 25px 0px 40px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -122,6 +124,7 @@ nav button {
   font-weight: 600;
 }
  input {
+  max-width: 70vw;
   appearance: none;
   text-shadow: none;
   padding: 17px 150px 17px 14px;
@@ -265,8 +268,12 @@ footer .questions {
       align-items: center;
       justify-content: center;
       gap: 16px;
+      /* margin-left: 47px; */
   }
-
+input{
+  padding: 17px 159px 17px 22px;
+  font-size: 10px;
+}
   .faq h2 {
       text-align: center;
       font-size: 32px;
